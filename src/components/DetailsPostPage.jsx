@@ -71,7 +71,7 @@ export const DetailsPostPage = () => {
         </div>
         <div className="card-footer d-flex justify-content-between small text-muted">
           <span>{new Date(postDetails?.createdAt).toLocaleString()}</span>
-          <span className="badge bg-primary">{postDetails?.course || "Sin curso"}</span>
+          <span className="badge bg-success">{postDetails?.course || "Sin curso"}</span>
         </div>
       </div>
 

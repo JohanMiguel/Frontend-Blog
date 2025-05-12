@@ -17,7 +17,7 @@ export const Filtrer = ({ onFilteredPosts }) => {
       <input
         type="text"
         className="form-control w-50 text-center"
-        placeholder="Buscar por curso..."
+        placeholder="Taller, Tecnologia, Practica Supervisada"
         value={search}
         onChange={(e) => setSearch(e.target.value)}
       />

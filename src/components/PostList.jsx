@@ -56,7 +56,7 @@ export const PostList = () => {
   
           const avatarUrl = `https://ui-avatars.com/api/?name=${encodeURIComponent(
             username
-          )}&background=000000&color=ffffff&size=64`;
+          )}&background=ff7e6e&color=ffffff&size=64`;
   
           return (
             <div
@@ -87,7 +87,7 @@ export const PostList = () => {
                 <small className="text-muted">
                   {new Date(post.createdAt).toLocaleString()}
                 </small>
-                <span className="badge bg-dark">{courseName}</span>
+                  <span className="badge bg-success">{courseName}</span>
               </div>
             </div>
           );
