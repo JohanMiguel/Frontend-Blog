@@ -9,9 +9,6 @@ export const HomePage = () => {
           <h1 className="text-4xl font-extrabold text-gray-800 mb-2">
              Publicaciones Informatica
           </h1>
-          <p className="text-lg text-gray-600">
-            Explora las últimas publicaciones.
-          </p>
         </header>
         <main>
           <PostList />
